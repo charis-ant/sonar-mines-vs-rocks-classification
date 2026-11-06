@@ -18,7 +18,7 @@ Target classes:
 - `M` → Mine (metal cylinder)
 - `R` → Rock
 
-The project investigates different machine learning approaches and evaluates their predictive performance on this binary classification problem. 【1-be8c28】
+The project investigates different machine learning approaches and evaluates their predictive performance on this binary classification problem.
 
 ## Dataset
 
@@ -41,7 +41,7 @@ Characteristics:
 - Binary classification problem
 - Normalized feature values between 0 and 1
 
-The dataset represents energy measurements across different frequency bands extracted from sonar signals. 【1-be8c28】
+The dataset represents energy measurements across different frequency bands extracted from sonar signals.
 
 ## Methodology
 
@@ -54,7 +54,7 @@ The following preprocessing steps were performed:
 - Train-test split (80% training / 20% testing)
 - Feature standardization when required
 
-The dataset was already normalized, therefore only encoding and train-test splitting were necessary prior to model training. 【1-be8c28】
+The dataset was already normalized, therefore only encoding and train-test splitting were necessary prior to model training.
 
 ### Exploratory Data Analysis
 
@@ -68,7 +68,7 @@ The analysis included:
 - Correlation matrix visualization
 - Signal pattern visualization
 
-These visualizations helped identify feature distributions and relationships between variables. 【1-be8c28】
+These visualizations helped identify feature distributions and relationships between variables.
 
 ## Algorithms Evaluated
 
@@ -84,7 +84,7 @@ These visualizations helped identify feature distributions and relationships bet
 - Gaussian Naive Bayes (NB)
 - Support Vector Machines (SVM)
 
-The models were evaluated using cross-validation and accuracy metrics. 【1-be8c28】
+The models were evaluated using cross-validation and accuracy metrics.
 
 ## Model Optimization
 
@@ -119,7 +119,7 @@ Best performance was achieved when:
 C = 2
 ```
 
-【1-be8c28】
+
 
 ## Ensemble Methods
 
@@ -130,8 +130,7 @@ Additional ensemble algorithms were evaluated:
 - Random Forest (RF)
 - Extra Trees (ET)
 
-The results were compared against the previously evaluated classifiers. 【1-be8c28】
-
+The results were compared against the previously evaluated classifiers.
 ## Results
 
 Key findings:
@@ -139,7 +138,7 @@ Key findings:
 - KNN achieved the highest accuracy among the initial models.
 - After feature standardization, SVM achieved the best overall performance.
 - Hyperparameter tuning further improved model performance.
-- The final SVM model produced the strongest classification results. 【1-be8c28】
+- The final SVM model produced the strongest classification results.
 
 ## Final Performance
 
@@ -149,7 +148,7 @@ The final model achieved an accuracy of approximately:
 85.7%
 ```
 
-on the validation dataset. 【1-be8c28】
+on the validation dataset.
 
 ## Technologies Used
 
@@ -160,8 +159,6 @@ on the validation dataset. 【1-be8c28】
 - Scikit-learn
 
 ## Learning Outcomes
-
-Through this project I gained experience with:
 
 - Exploratory Data Analysis (EDA)
 - Binary classification problems
